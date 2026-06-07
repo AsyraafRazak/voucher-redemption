@@ -14,7 +14,7 @@ app.use(express.json()); // Allows us to parse JSON bodies
 // Routes
 // We will create these files in the next step
 // app.use('/api/users', require('./routes/userRoutes'));
-// app.use('/api/categories', require('./routes/categoryRoutes'));
+app.use('/api/categories', require('./routes/categoryRoutes'));
 // app.use('/api/vouchers', require('./routes/voucherRoutes'));
 // app.use('/api/orders', require('./routes/orderRoutes'));
 
